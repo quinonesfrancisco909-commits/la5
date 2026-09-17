@@ -1,0 +1,93 @@
+/* PARTE 1: Sintaxis CSS y Comentarios */
+/* Color de fondo general del sitio web */
+
+/* PARTE 3: Selector universal (Reset general) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #212121;
+  background-color: #0ebebe;
+}
+
+/* PARTE 4: Selectores de Clase */
+.navbar ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.nav-link {
+  color: #1b2a4a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #e8791a;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card {
+  margin-bottom: 12px;
+  padding: 8px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+/* PARTE 5: Selectores de ID */
+#video-player {
+  max-width: 720px;
+  margin: 24px auto;
+}
+
+#sugeridos {
+  width: 300px;
+  background-color: #eef1f6;
+  padding: 12px;
+}
+
+#pie {
+  background-color: #1b2a4a;
+  color: #ffffff;
+  padding: 16px;
+  text-align: center;
+}
+
+#pie ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+#pie a {
+  color: #aa1414;
+  text-decoration: none;
+}
+
+/* PARTE 6: Selectores de Agrupación y Ajustes Finales */
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+  color: #1b2a4a;
+  margin-bottom: 8px;
+}
+
+input[type="search"]:focus, textarea:focus {
+  outline: 2px solid #e8791a;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
